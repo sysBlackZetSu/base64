@@ -17,6 +17,13 @@ Includes:
   src="data:image/png;base64,data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg=="
   alt="BaTD"/>
 
+Base64 is particularly useful in the following scenarios:
+
+- Embedding small binary data (such as small images or icons) in HTML
+- Transmitting binary data in protocols that can only transmit text
+- Transmitting data in systems with restrictions on special characters
+- Simple data obfuscation (Note: This is not encryption!)
+
 ## How Base42 works?
 
 https://www.redhat.com/sysadmin/base64-encoding
